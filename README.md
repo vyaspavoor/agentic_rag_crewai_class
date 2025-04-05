@@ -16,6 +16,12 @@ conda create -n env_crewai python==3.12 -y
 conda activate env_crewai
 ```
 
+
+```bash
+uv lock
+uv sync
+```
+
 **Install Dependencies**:
    Ensure you have Python 3.11 or later installed.
    ```bash

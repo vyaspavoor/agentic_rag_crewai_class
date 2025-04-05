@@ -1,0 +1,13 @@
+prefix=/Users/Nanditha/agentic_rag_crewai_class/venv
+exec_prefix=/Users/Nanditha/agentic_rag_crewai_class/venv
+libdir=/Users/Nanditha/agentic_rag_crewai_class/venv/lib
+sharedlibdir=/Users/Nanditha/agentic_rag_crewai_class/venv/lib
+includedir=/Users/Nanditha/agentic_rag_crewai_class/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
